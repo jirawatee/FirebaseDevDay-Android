@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="@dimen/activity_margin"
+	android:gravity="center"
+	tools:context="com.firebase.devday.MainActivity">
+
+	<Button
+		android:id="@+id/btn_read_write"
+		style="@style/MyButton"
+		android:layout_margin="@dimen/cardview_margin_8"
+		android:text="@string/main_read_write"/>
+
+	<Button
+		android:id="@+id/btn_listener"
+		style="@style/MyButton"
+		android:layout_margin="@dimen/cardview_margin_8"
+		android:text="@string/main_listener"/>
+
+	<Button
+		android:id="@+id/btn_orderby_value"
+		style="@style/MyButton"
+		android:layout_margin="@dimen/cardview_margin_8"
+		android:text="@string/main_orderby_value"/>
+
+	<Button
+		android:id="@+id/btn_sign_out"
+		style="@style/MyButton"
+		android:layout_margin="@dimen/cardview_margin_8"
+		android:text="@string/main_signout"/>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="@dimen/activity_margin"
+	tools:context="com.firebase.devday.ReadWriteActivity">
+
+	<TextView
+		android:id="@+id/txt"
+		android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		tools:text="@string/app_name"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_above="@+id/btn_push">
+
+		<Button
+			android:id="@+id/btn_set_single"
+			android:layout_weight="1"
+			android:text="@string/setvalue_single"
+			style="@style/MyButton"/>
+
+		<Button
+			android:id="@+id/btn_set_object"
+			android:layout_weight="1"
+			android:text="@string/setvalue_object"
+			style="@style/MyButton"/>
+
+	</LinearLayout>
+
+	<Button
+		android:id="@+id/btn_push"
+		android:layout_alignParentBottom="true"
+		android:text="@string/push"
+		style="@style/MyButton"/>
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<resources>
+	<dimen name="avatar80">80dp</dimen>
+	<dimen name="activity_margin">16dp</dimen>
+	<dimen name="cardview_margin_8">8dp</dimen>
+	<dimen name="cardview_margin_4">4dp</dimen>
+</resources>

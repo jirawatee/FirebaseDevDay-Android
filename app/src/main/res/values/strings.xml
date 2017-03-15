@@ -1,0 +1,14 @@
+<resources>
+	<string name="app_name">DevDay</string>
+	<string name="exit">Press back again to exit</string>
+
+	<string name="main_read_write">Read and Write Data</string>
+	<string name="main_listener">Listener | Ordering | Filtering</string>
+	<string name="main_orderby_value">orderByValue</string>
+	<string name="main_signout">Sign Out</string>
+	<string name="setvalue_single">setValue single</string>
+	<string name="setvalue_object">setValue object</string>
+	<string name="confirm_delete">Do you like to delete \"%s\"?</string>
+	<string name="vote">Vote %d</string>
+	<string name="push">Push</string>
+</resources>
