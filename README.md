@@ -1,4 +1,4 @@
-# Deep Dive into Firebase Realtime Database (Firebase Dev Day)
+# Deep Dive into Realtime Database (Firebase Dev Day)
 Sample code from Deep dive into Firebase Realtime Database session in Firebase Dev Day Bangkok
 
 ## Prerequisites
