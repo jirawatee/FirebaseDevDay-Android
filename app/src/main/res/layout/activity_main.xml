@@ -28,6 +28,12 @@
 		android:text="@string/main_orderby_value"/>
 
 	<Button
+		android:id="@+id/btn_translate"
+		style="@style/MyButton"
+		android:layout_margin="@dimen/cardview_margin_8"
+		android:text="@string/main_translate"/>
+
+	<Button
 		android:id="@+id/btn_sign_out"
 		style="@style/MyButton"
 		android:layout_margin="@dimen/cardview_margin_8"
