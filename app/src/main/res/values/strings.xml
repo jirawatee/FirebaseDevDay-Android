@@ -5,7 +5,6 @@
 	<string name="main_read_write">Read and Write Data</string>
 	<string name="main_listener">Listener | Ordering | Filtering</string>
 	<string name="main_orderby_value">orderByValue</string>
-	<string name="main_translate">Translate</string>
 	<string name="main_signout">Sign Out</string>
 	<string name="setvalue_single">setValue single</string>
 	<string name="setvalue_object">setValue object</string>
