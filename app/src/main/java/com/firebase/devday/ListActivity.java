@@ -16,7 +16,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bumptech.glide.Glide;
+import com.firebase.devday.configs.GlideApp;
 import com.firebase.devday.helpers.MyHelper;
 import com.firebase.devday.models.Topic;
 import com.google.firebase.auth.FirebaseAuth;
@@ -221,7 +221,7 @@ public class ListActivity extends AppCompatActivity implements View.OnClickListe
 			holder.titleView.setText(topic.title);
 			holder.speakerView.setText(topic.speaker);
 			holder.voteView.setText(mContext.getString(R.string.vote, topic.voteCount));
-			Glide.with(mContext).load(topic.avatar).error(R.mipmap.ic_launcher_round).into(holder.avatar);
+			GlideApp.with(mContext).load(topic.avatar).error(R.mipmap.ic_launcher_round).into(holder.avatar);
 
 			holder.itemView.setOnClickListener(new View.OnClickListener() {
 				@Override

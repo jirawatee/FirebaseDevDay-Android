@@ -13,10 +13,6 @@
 		android:supportsRtl="true"
 		android:theme="@style/AppTheme">
 
-		<meta-data
-			android:name="com.firebase.devday.configs.GlideConfiguration"
-			android:value="GlideModule"/>
-
 		<activity
 			android:name=".SigninActivity"
 			android:theme="@style/AppTheme.NoActionBar">

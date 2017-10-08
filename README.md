@@ -2,8 +2,8 @@
 Sample code from Deep dive into Firebase Realtime Database session in Firebase Dev Day Bangkok
 
 ## Prerequisites
-* Supported Android API 16 and newer
-* Google Play services 11.0.x or newer
+* Supported Android API 16 or newer
+* Google Play services 11.4.2 or newer
 * Android Studio 2.3.x or higher
 * google-services.json in app-level folder
 

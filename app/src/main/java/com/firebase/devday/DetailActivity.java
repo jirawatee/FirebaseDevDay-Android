@@ -25,8 +25,8 @@ public class DetailActivity extends AppCompatActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_detail);
 
-		mImageView = (ImageView) findViewById(R.id.picture);
-		mTextView = (TextView) findViewById(R.id.txt);
+		mImageView = findViewById(R.id.picture);
+		mTextView = findViewById(R.id.txt);
 
 		String topicKey = getIntent().getStringExtra("topicKey");
 

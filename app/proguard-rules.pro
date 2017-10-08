@@ -6,9 +6,10 @@
 -keepclassmembers class com.firebase.devday.models.** {*;}
 
 -keep public class * implements com.bumptech.glide.module.GlideModule
+-keep public class * extends com.bumptech.glide.module.AppGlideModule
 -keep public enum com.bumptech.glide.load.resource.bitmap.ImageHeaderParser$** {
-    **[] $VALUES;
-    public *;
+  **[] $VALUES;
+  public *;
 }
 
 -assumenosideeffects class android.util.Log {
