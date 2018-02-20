@@ -35,7 +35,7 @@ public class SigninActivity extends BaseActivity implements View.OnClickListener
 		setContentView(R.layout.activity_signin);
 		mAuth = FirebaseAuth.getInstance();
 
-		SignInButton signInButton = (SignInButton) findViewById(R.id.sign_in_button);
+		SignInButton signInButton = findViewById(R.id.sign_in_button);
 		signInButton.setSize(SignInButton.SIZE_WIDE);
 		signInButton.setOnClickListener(this);
 	}

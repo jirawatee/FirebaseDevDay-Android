@@ -47,7 +47,7 @@ public class ListActivity extends AppCompatActivity implements View.OnClickListe
 		setContentView(R.layout.fragment_all_topics);
 		findViewById(R.id.fab).setOnClickListener(this);
 
-		mRecycler = (RecyclerView) findViewById(R.id.topic_list);
+		mRecycler = findViewById(R.id.topic_list);
 		mRecycler.setHasFixedSize(true);
 		LinearLayoutManager mManager = new LinearLayoutManager(this);
 		//mManager.setReverseLayout(true);
@@ -127,10 +127,10 @@ public class ListActivity extends AppCompatActivity implements View.OnClickListe
 		TextView titleView, speakerView, voteView;
 		TopicViewHolder(View itemView) {
 			super(itemView);
-			avatar = (ImageView) itemView.findViewById(R.id.avatar);
-			titleView = (TextView) itemView.findViewById(R.id.title);
-			speakerView = (TextView) itemView.findViewById(R.id.speaker);
-			voteView = (TextView) itemView.findViewById(R.id.vote);
+			avatar = itemView.findViewById(R.id.avatar);
+			titleView = itemView.findViewById(R.id.title);
+			speakerView = itemView.findViewById(R.id.speaker);
+			voteView = itemView.findViewById(R.id.vote);
 		}
 	}
 

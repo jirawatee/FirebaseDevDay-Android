@@ -22,7 +22,7 @@ public class PetrolActivity extends AppCompatActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_petrol);
-		mTextView = (TextView) findViewById(R.id.txt);
+		mTextView = findViewById(R.id.txt);
 		DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference();
 		mQuery = mDatabase.child("Petrol").orderByValue();
 	}

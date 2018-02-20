@@ -24,7 +24,7 @@ public class ReadWriteActivity extends AppCompatActivity implements View.OnClick
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_read_write);
 
-		mTextView = (TextView) findViewById(R.id.txt);
+		mTextView = findViewById(R.id.txt);
 		findViewById(R.id.btn_set_single).setOnClickListener(this);
 		findViewById(R.id.btn_set_object).setOnClickListener(this);
 		findViewById(R.id.btn_push).setOnClickListener(this);
