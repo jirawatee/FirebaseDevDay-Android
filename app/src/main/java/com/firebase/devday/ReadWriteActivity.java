@@ -14,7 +14,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 public class ReadWriteActivity extends AppCompatActivity implements View.OnClickListener {
-	private static final String USER_ID = "Hqzrnjg32UefsmId2wTyXTwC89F3";
+	private static final String USER_ID = "<YOUR-UID>";
 	private DatabaseReference mDatabase, mUsersRef;
 	private TextView mTextView;
 	private ValueEventListener valueEventListener;

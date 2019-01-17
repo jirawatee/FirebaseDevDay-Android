@@ -221,7 +221,7 @@ public class ListActivity extends AppCompatActivity implements View.OnClickListe
 			holder.titleView.setText(topic.title);
 			holder.speakerView.setText(topic.speaker);
 			holder.voteView.setText(mContext.getString(R.string.vote, topic.voteCount));
-			GlideApp.with(mContext).load(topic.avatar).error(R.mipmap.ic_launcher_round).into(holder.avatar);
+			GlideApp.with(mContext).load(topic.avatar).circleCrop().error(R.mipmap.ic_launcher_round).into(holder.avatar);
 
 			holder.itemView.setOnClickListener(new View.OnClickListener() {
 				@Override
