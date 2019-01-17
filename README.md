@@ -3,8 +3,8 @@ Sample code from Deep dive into Firebase Realtime Database session in Firebase D
 
 ## Prerequisites
 * Supported Android API 16 or newer
-* Google Play services 11.8.0 or newer
-* Android Studio 3.0.1 or higher
+* Google Play services 16.0.0 or newer
+* Android Studio 3.3.0 or higher
 * google-services.json in app-level folder
 
 ## Contents
