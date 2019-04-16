@@ -2,10 +2,7 @@
 Sample code from Deep dive into Firebase Realtime Database session in Firebase Dev Day Bangkok
 
 ## Prerequisites
-* Supported Android API 16 or newer
-* Google play services - Auth 16.0.1 or newer
-* Firebase Auth 16.2.1 or newer
-* Firebase Realtime Database 16.1.0 or newer
+* Supported Android 4.1 or newer
 * Android Studio 3.3.2 or higher
 * google-services.json in app-level folder
 
