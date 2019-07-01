@@ -1,7 +1,7 @@
 package com.firebase.devday;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
@@ -14,7 +14,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 public class ReadWriteActivity extends AppCompatActivity implements View.OnClickListener {
-	private static final String USER_ID = "<YOUR-UID>";
+	private static final String USER_ID = "HuwtqNSpuedOz9rprj4YLPID2oy2";
 	private DatabaseReference mDatabase, mUsersRef;
 	private TextView mTextView;
 	private ValueEventListener valueEventListener;
