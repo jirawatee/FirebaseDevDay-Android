@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
 	compileSdkVersion compileAndTargetSdk
-	buildToolsVersion "29.0.2"
+	buildToolsVersion "29.0.3"
 
 	defaultConfig {
 		applicationId "com.firebase.devday"
@@ -37,12 +37,12 @@ android {
 
 dependencies {
 	implementation 'androidx.appcompat:appcompat:1.1.0'
-	implementation 'androidx.recyclerview:recyclerview:1.0.0'
+	implementation 'androidx.recyclerview:recyclerview:1.1.0'
 	implementation 'androidx.cardview:cardview:1.0.0'
-	implementation 'com.google.android.material:material:1.0.0'
+	implementation 'com.google.android.material:material:1.1.0'
 	implementation "com.google.android.gms:play-services-auth:17.0.0"
-	implementation "com.google.firebase:firebase-auth:19.0.0"
-	implementation "com.google.firebase:firebase-database:19.1.0"
+	implementation "com.google.firebase:firebase-auth:19.2.0"
+	implementation "com.google.firebase:firebase-database:19.2.1"
 	implementation "com.github.bumptech.glide:glide:$glideLibraryVersion"
 	annotationProcessor "com.github.bumptech.glide:compiler:$glideLibraryVersion"
 	annotationProcessor 'androidx.annotation:annotation:1.1.0'
