@@ -1,5 +1,5 @@
-# Deep Dive into Realtime Database (Firebase Dev Day)
-Sample code from Deep dive into Firebase Realtime Database session in Firebase Dev Day Bangkok
+# Deep Dive into Realtime Database (Firebase Dev Day 2017)
+Sample code from Deep dive into Firebase Realtime Database session in Firebase Dev Day 2017 Bangkok
 
 ## Prerequisites
 * Supported Android 4.1 or newer
